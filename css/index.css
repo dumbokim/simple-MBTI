@@ -28,6 +28,7 @@ html {
 button {
   border: none;
   border-radius: 5%;
+  color: rgb(58, 69, 82);
   font-size: 150%;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   background-color: rgb(190, 225, 236);
@@ -42,12 +43,14 @@ button {
 #logo {
   height: 10%;
   border-bottom: 1px solid gray;
-  font-size: 150%;
 }
 
 #logo a {
   text-decoration: none;
   color: cornflowerblue;
+  font-size: 180%;
+  font-weight: bolder;
+  font-family: "Single Day", cursive;
 }
 
 .content {
@@ -85,7 +88,7 @@ button {
 }
 
 #question {
-  color: black;
+  color: rgb(58, 69, 82);
   padding-top: 3%;
 }
 
