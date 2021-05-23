@@ -133,6 +133,12 @@ button {
   width: 60%;
 }
 
+#result #retry {
+  margin-top: 10%;
+  width: 40%;
+  padding: 2% 0;
+}
+
 @media (max-width: 991px) {
   html {
     height: 100%;

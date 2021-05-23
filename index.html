@@ -61,6 +61,7 @@
             <h2 id="result_head">나의 MBTI 결과는?</h2>
             <div class="pic">
                 <img id="image" src="" class="result_image" alt="animal">
+                <button id="retry">다시하기</button>
             </div>
 
         </div> 
@@ -148,7 +149,7 @@
                     $("#image").attr("src", result[mbti]["image"]);
                     $("#animal").html(result[mbti]["animal"]);
                 } else{
-                $(".progress-bar").attr('style', 'width: calc(100/12*'+num+'%)');
+                $(".progress-bar").attr('style', 'width: calc(100/4*'+num+'%)');
                 $("#q_image").attr("src", q_image[num]["q_image"])
                 $("#question").html(q[num]["question"]);
                 $("#type").val(q[num]["type"]);
@@ -156,6 +157,17 @@
                 $("#no").html(q[num]["no"]);
                 num++;}
             }
+
+            $("#retry").click(function() {
+                $("#result").hide();
+                $("#start").show();
+                num=1;
+                $("#EI").val(0);
+                $("#SN").val(0);
+                $("#TF").val(0);
+                $("#JP").val(0);
+                // location.href = 'https://dumbokim.github.io/simple-MBTI/';
+            })
         
     
     
