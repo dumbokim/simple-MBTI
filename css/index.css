@@ -1,0 +1,141 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.whole {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(119, 240, 184, 0.466);
+  color: rgb(58, 69, 82);
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.display {
+  background-color: rgb(245, 245, 245);
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 45%;
+  border-left: 1vh solid gray;
+  border-right: 1vh solid gray;
+}
+
+button {
+  border: none;
+  border-radius: 5%;
+  font-size: 150%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: rgb(190, 225, 236);
+}
+
+.display div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#logo {
+  height: 10%;
+  border-bottom: 1px solid gray;
+  font-size: 150%;
+}
+
+.content {
+  flex-direction: column;
+  height: 80%;
+}
+.pic {
+  display: flex;
+  flex-direction: column;
+  height: 66%;
+  align-items: center;
+  justify-content: center;
+}
+
+.pic img {
+  height: 70%;
+  width: 60%;
+}
+
+.sc {
+  flex-direction: column;
+  height: 34%;
+  width: 60%;
+}
+
+.sc button {
+  height: 70%;
+  width: 100%;
+}
+
+.mbti_text {
+  height: 50%;
+  width: 100%;
+}
+
+#question {
+  color: black;
+  padding-top: 3%;
+}
+
+.yes {
+  height: 50%;
+  width: 100%;
+}
+
+.start_button {
+  height: 50%;
+  width: 100%;
+}
+
+.no {
+  height: 50%;
+  width: 100%;
+}
+
+#foot {
+  height: 10%;
+  border-top: 1px solid gray;
+}
+
+#question_page {
+  display: none;
+}
+
+#result {
+  display: none;
+}
+
+#result_head {
+  padding-top: 5%;
+}
+
+#result .pic {
+  height: 100%;
+  width: 100%;
+}
+
+#result .pic img {
+  width: 60%;
+}
+
+@media (max-width: 991px) {
+  html {
+    height: 100%;
+    width: 100%;
+  }
+  .whole {
+    height: 100%;
+    width: 100%;
+  }
+  .display {
+    height: 100%;
+    width: 100%;
+    border: 0;
+  }
+}
