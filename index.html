@@ -14,7 +14,7 @@
         </div>
         <div class="content">
             <div class="pic">
-                <img src="./src/4344.png" alt="">
+                <img src="./src/start_image.png" alt="">
             </div>
             <div class="sc">
                 <div class="mbti_text">
@@ -35,7 +35,7 @@
         </div>
         <div class="content">
             <div class="pic">
-                <img src="./src/4344.png" alt="">
+                <img id="q_image" src="" class="q_image" alt="q_image">
                 <h2 id="question">문제</h2>
             </div>
             <div class="sc">
@@ -89,6 +89,13 @@
             "type": "JP", "yes": "YES", "no": "NO"},
         }
 
+        let q_image = {
+            1 : {"q_image": "./src/q1.png"},
+            2 : {"q_image": "./src/q2.png"},
+            3 : {"q_image": "./src/q3.png"},
+            4 : {"q_image": "./src/q4.png"}
+            }
+
         let result = {
             "INTJ": {"image": "./src/INTJ.png"},
             "INTP": {"image": "./src/INTP.png"},
@@ -140,6 +147,7 @@
                     $("#animal").html(result[mbti]["animal"]);
                 } else{
                 $(".progress-bar").attr('style', 'width: calc(100/12*'+num+'%)');
+                $("#q_image").attr("src", q_image[num]["q_image"])
                 $("#question").html(q[num]["question"]);
                 $("#type").val(q[num]["type"]);
                 $("#yes").html(q[num]["yes"]);
