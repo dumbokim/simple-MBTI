@@ -65,6 +65,10 @@ button {
   justify-content: center;
 }
 
+#result .pic {
+  height: 50%;
+}
+
 .pic img {
   height: 70%;
   width: 60%;
@@ -75,6 +79,7 @@ button {
   flex-direction: column;
   height: 34%;
   width: 60%;
+  margin: auto;
 }
 
 .sc button {
@@ -110,6 +115,11 @@ button {
 #foot {
   height: 10%;
   border-top: 1px solid gray;
+  flex-direction: column;
+}
+
+#by {
+  font-family: "Single Day", cursive;
 }
 
 #question_page {
@@ -122,10 +132,12 @@ button {
 
 #result_head {
   padding-top: 5%;
+  height: 10%;
+  margin: 0;
 }
 
 #result .pic {
-  height: 100%;
+  height: 80%;
   width: 100%;
 }
 

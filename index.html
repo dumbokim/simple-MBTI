@@ -10,11 +10,11 @@
 <link href="https://fonts.googleapis.com/css2?family=Single+Day&display=swap" rel="stylesheet">
 </head>
 <body class="whole">
-    <div class="display" id="start">
+    <div class="display">
         <div id="logo">
             <a href="https://dumbokim.github.io/simple-MBTI/">초간단 MBTI</a>
         </div>
-        <div class="content">
+        <div class="content" id="start">
             <div class="pic">
                 <img src="./src/start_image.png" alt="">
             </div>
@@ -26,16 +26,9 @@
                     <button id="start_button" onclick="start();">START!</button>
                 </div>
             </div>
-        </div>    
-        <div id="foot">by. dumbokim</div>
-    </div>
-
-
-    <div class="display" id="question_page">
-        <div id="logo">
-            <a href="https://dumbokim.github.io/simple-MBTI/">초간단 MBTI</a>
         </div>
-        <div class="content">
+        
+        <div class="content" id="question_page">
             <div class="pic">
                 <img id="q_image" src="" class="q_image" alt="q_image">
                 <h2 id="question">문제</h2>
@@ -49,31 +42,37 @@
                     <button id="no">no</button>
                 </div>
             </div>
-        </div>    
-        <div id="foot">by. dumbokim</div>
-    </div>
+        </div> 
 
-    <div class="display" id="result">
-        <div id="logo">
-            <a href="https://dumbokim.github.io/simple-MBTI/">초간단 MBTI</a>
-        </div>
-        <div class="content">
+
+        <div class="content" id="result">
             <h2 id="result_head">나의 MBTI 결과는?</h2>
             <div class="pic">
                 <img id="image" src="" class="result_image" alt="animal">
                 <button id="retry">다시하기</button>
             </div>
+        </div>
+        
+        
 
-        </div> 
-        <div id="foot">by. dumbokim</div>
+        <div id="foot">
+            <ins class="kakao_ad_area" style="display:none;" 
+                data-ad-unit    = "DAN-WgOQokHTic1nXD7o" 
+                data-ad-width   = "320" 
+                data-ad-height  = "50"></ins>
+                <div id="by">by. dumbokim</div>
+            </div>
     </div>
 
-    <input type="hidden" id="EI" value="0">
-        <input type="hidden" id="SN" value="0">
-        <input type="hidden" id="TF" value="0">
-        <input type="hidden" id="JP" value="0">
+
     
 
+    <input type="hidden" id="EI" value="0">
+    <input type="hidden" id="SN" value="0">
+    <input type="hidden" id="TF" value="0">
+    <input type="hidden" id="JP" value="0">
+    
+    <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>    
     
