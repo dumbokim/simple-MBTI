@@ -1,8 +1,3 @@
-@font-face {
-  font-family: "jua";
-  src: url("../Jua-Regular.ttf") format("truetype");
-}
-
 html {
   height: 100%;
   width: 100%;
@@ -16,7 +11,7 @@ html {
   margin: 0;
   height: 100%;
   width: 100%;
-  font-family: "jua", sans-serif;
+  font-family: "Jua", sans-serif;
 }
 
 .display {
@@ -36,7 +31,7 @@ button {
   border-radius: 1vh;
   color: rgb(58, 69, 82);
   font-size: 150%;
-  font-family: "jua", sans-serif;
+  font-family: "Jua", sans-serif;
   background-color: rgb(190, 225, 236);
 }
 
@@ -56,7 +51,7 @@ button {
   color: rgba(53, 114, 228, 0.644);
   font-size: 180%;
   font-weight: bolder;
-  font-family: "jua", sans-serif;
+  font-family: "Jua", sans-serif;
 }
 
 .content {
